@@ -1,0 +1,52 @@
+body {
+    background: #F1A5AA;
+}
+
+aside {
+    float: left;
+    background: white;
+    width: 18%;
+    padding: 2.5%;
+    height: 100vh;
+    color: white;
+    border-right: 5px solid #F1A5AA;
+}
+
+
+aside .logo {
+    font-size: 15px;
+    font-weight: normal;
+    color: #F1A5AA;
+}
+
+aside h3 {
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgb(128, 128, 128);
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: rgb(128, 128, 128);
+    display: block;
+    margin-top: 20px;
+    margin-left: -20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #F1A5AA;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto}
